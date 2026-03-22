@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 28 194 159;
+    --color-primary-text: 94 221 192;
+    --color-secondary: 255 107 107;
+    
+    /* Light Mode */
+    --color-background: 248 249 250;
+    --color-card: 255 255 255;
+    --color-text: 26 26 46;
+    --color-muted: 142 142 147;
+    --color-border: 232 232 237;
+  }
+
+  .dark {
+    /* Dark Mode */
+    --color-background: 13 13 20;
+    --color-card: 26 26 46;
+    --color-text: 240 240 245;
+    --color-muted: 108 108 128;
+    --color-border: 42 42 62;
+  }
+}
